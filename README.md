@@ -44,6 +44,6 @@ Responsive **landing page** for an eCommerce website built with **HTML & CSS**, 
 
 ---
 
-I can also make an **even snappier 5–6 line version** if you want it extremely concise for GitHub. Do you want me to do that?
+
 
 
