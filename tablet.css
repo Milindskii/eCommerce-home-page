@@ -1,0 +1,76 @@
+/* 💻 Tablet / small screen layout */
+@media (max-width: 768px) {
+
+  /* ----- NAVBAR ----- */
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul li a {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+
+  /* ----- HOME ----- */
+  #home {
+    height: 350px;
+    padding: 10px 80px;
+    text-align: center;
+  }
+
+  #home::before {
+    height: 500px;
+  }
+
+  #home h1 {
+    font-size: 1.8rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  /* ----- SERVICES ----- */
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services .box {
+    width: 80%;
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* ----- PRODUCTS ----- */
+  #products-section h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #products img {
+    width: 45%;
+    height: auto;
+  }
+
+  /* ----- CONTACT ----- */
+  #contact-box form {
+    width: 70%;
+  }
+
+}

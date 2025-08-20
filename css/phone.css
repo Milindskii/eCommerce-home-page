@@ -1,0 +1,98 @@
+/* 📱 Mobile Layout (phones) */
+@media (max-width: 480px) {
+
+  /* ----- NAVBAR ----- */
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul li a {
+    font-size: 0.75rem;
+    padding: 5px 0;
+  }
+
+  /* ----- HOME ----- */
+  #home {
+    height: 230px;
+    padding: 5px 20px;
+    text-align: center;
+  }
+
+  #home::before {
+    height: 330px;
+  }
+
+  #home h1 {
+    font-size: 1.2rem;
+  }
+
+  #home p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 18px;
+  }
+
+  /* ----- SERVICES ----- */
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services .box {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  #services .box h2 {
+    font-size: 1rem;
+  }
+
+  #services .box p {
+    font-size: 0.75rem;
+  }
+
+  /* ----- PRODUCTS ----- */
+  #products-section h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     /* keep images centered in each row */
+    align-items: center;
+    gap: 15px;
+  }
+
+  #products img {
+    width: 48%;                  /* bigger images: 2 in one row */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* ----- CONTACT ----- */
+  #contact-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contact-box form {
+    width: 90%;
+  }
+
+}
